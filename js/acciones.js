@@ -1,15 +1,18 @@
 // JavaScript Document
 
-$(document).ready(function(e) {
-	document.addEventListener("deviceready",function(){
-		$('#bepp').tap(function(){
-		navigator.notification.bepp(2);
-	});//tap beep
-		$('#vibrar').tap(function(){
-		navigator.notification.vibrar(1000);
-	});//tap vibrar
+$ (document).ready (function (e){
+	document.addEventListener("deviceready", function(){
 		
-		},false);//deviceready
-});//ready
+		$('#bepp').tap(function(){
+			navigator.notificacion.beep(2);
+		});//tap beep
+		
+		$('#vibrar').tap(function(){
+			navigator.notificacion.beep(1000);
+		});//tap vibrar
+		
+	},false); //deviceready
+}); //ready
+		
 
 
