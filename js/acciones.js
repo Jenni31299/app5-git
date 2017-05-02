@@ -5,7 +5,7 @@ $(document).ready(function(e) {
 		$('#bepp').tap(function(){
 		navigator.notificacion.bepp(2);
 	});//tap beep
-		$('#bepp').tap(function(){
+		$('#vibrar').tap(function(){
 		navigator.notificacion.bepp(1000);
 	});//tap vibrar
 		
